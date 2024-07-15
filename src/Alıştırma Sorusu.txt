@@ -1,0 +1,28 @@
+Alıştırma Sorusu:
+Bir bankacılık uygulaması için, kullanıcıdan banka hesap numarası, hesap şifresi ve işlem türünü (para yatırma, para çekme, bakiye sorgulama) almanızı gerektiren bir program yazın.
+
+Hesap Doğrulama:
+
+Kullanıcıdan hesap numarası ve şifresi istenmeli.
+Hesap numarası ve şifresi önceden tanımlı olan değerlerle doğrulanmalı.
+Yanlış girilirse, "Hesap numarası veya şifre yanlış" mesajı verilerek program sonlandırılmalı.
+İşlem Türü:
+
+Kullanıcıdan işlem türü seçmesi istenmeli (1: Para Yatırma, 2: Para Çekme, 3: Bakiye Sorgulama).
+İşlem türüne göre gerekli işlemler yapılmalı.
+Para Yatırma ve Çekme:
+
+Para yatırma işleminde, kullanıcıdan yatırılacak miktar istenmeli ve bu miktar mevcut bakiyeye eklenmeli.
+Para çekme işleminde, kullanıcıdan çekilecek miktar istenmeli ve bu miktar mevcut bakiyeden çıkarılmalı.
+Mevcut bakiyeden fazla miktarda para çekilmek istenirse, "Yetersiz bakiye" mesajı verilerek işlem yapılmamalı.
+Bakiye Sorgulama:
+
+Kullanıcı mevcut bakiyeyi sorgulayabilmeli.
+Program Akışı:
+
+İşlem sonunda kullanıcıya başka bir işlem yapmak isteyip istemediği sorulmalı.
+Kullanıcı "hayır" derse program sonlanmalı, "evet" derse işlem adımlarına geri dönülmeli.
+İpucu:
+Kullanıcıdan veri almak için Scanner sınıfını kullanın.
+Hesap doğrulama için if-else blokları kullanın.
+Döngü ve switch-case yapıları ile işlemleri gerçekleştirin.
