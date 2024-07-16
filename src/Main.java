@@ -1,5 +1,3 @@
-import java.security.cert.TrustAnchor;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -38,7 +36,7 @@ public class Main {
                         } else {
                             System.out.println("Geçerli bir deger giriniz");
 
-                        }
+                        }/// degisiklik
                         break;
                     case 2:
                         System.out.println("Çekilicek miktarı giriniz");
