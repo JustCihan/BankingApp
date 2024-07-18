@@ -1,0 +1,31 @@
+
+Medium'dan geliyorsanız, bu kod çok doğru yazılmış bir kod değildir. Sadece temel olarak döngüleri anlamak için yazılmış
+ bir projedir. Farklı olarak karşınıza burada switch-case yapısı çıkmaktadır. Switch-case yapısında bir değişkene bağlı
+ olarak bir seçim işlemi yapılır ve bu seçim sonunda altında bulunan bloklardan birine girilir.
+
+Kodun bu aşamada (döngüleri kavramak bakımından) anlaşılabilir olması için hata yönetimi, nesne yönelimli programlama
+gibi konuları dikkate almadan hazırladım. Kodu biraz açıklamak gerekirse Sabit bir hesap numarası ve şifresine sahip.
+İf ile Kontrol edilip girş onaylanıyor veya reddediliyor onaylanır ise islem türüne hangi işlemi yapmak istiyor iseler
+o bilgi alınıyor ve Switch case yapısına giriyor burada içeride para yatırılıp
+
+
+Programın İşleyişi:
+Giriş ve Değişken Tanımlamaları:
+
+Scanner scanner = new Scanner(System.in);: Kullanıcıdan girdi almak için kullanılır.
+long hesap_bakiye = 1000;: Başlangıç bakiyesi.
+int hesap_numarasi = 123456789, hesap_sifresi = 987654321;: Sabit hesap numarası ve şifresi.
+Diğer değişkenler kullanıcı girdilerini ve işlem türlerini tutar.
+Kullanıcı Girişi:
+
+Kullanıcıdan hesap numarası ve şifresi istenir.
+Doğru girildiğinde, kullanıcı işlemlere devam eder (islem_devam_ediyor_mu boolean değişkeni ile kontrol edilir).
+İşlem Seçimi ve Gerçekleştirilmesi:
+
+Kullanıcıya üç seçenek sunulur: Para Yatırma, Para Çekme, Bakiye Sorgulama.
+Seçilen işlem gerçekleştirilir ve işlem sonucuna göre bakiye güncellenir.
+Devam Etme veya Çıkış:
+
+Kullanıcıya başka bir işlem yapmak isteyip istemediği sorulur.
+"Evet" yanıtı verilirse işlem devam eder, aksi halde program sonlanır.
+

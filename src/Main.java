@@ -1,15 +1,14 @@
+//örnegin sorusu gerekli dosyada txt olarak mevcut
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //örnegin sorusu gerekli dosyada txt olarak mevcut
-        //Burada java da struct yapısı bilmedigimden degişkenlere sabit bir deger  aticam
+
         long hesap_bakiye = 1000;
         int hesap_numarasi = 123456789, hesap_sifresi = 987654321, hesap_numarasi_kontrol, hesap_sifresi_kontrol;
         int islem_turu;
         float yatirilacak_miktar, cekilicek_miktar;
-        String islem_devam_kontrol;
         boolean islem_devam_ediyor_mu = true;
 
         System.out.println("Hesap numarasını giriniz");
@@ -36,7 +35,7 @@ public class Main {
                         } else {
                             System.out.println("Geçerli bir deger giriniz");
 
-                        }/// degisiklik
+                        }
                         break;
                     case 2:
                         System.out.println("Çekilicek miktarı giriniz");
@@ -59,7 +58,7 @@ public class Main {
                 scanner.nextLine();
                 System.out.println("Baska bir islem yapmak istiyor musunuz? Lutdfen evet veya hayır'ı tuşlayın: ");
                 String cevap = scanner.nextLine();
-                ;
+
                 islem_devam_ediyor_mu = cevap.equalsIgnoreCase("evet");
 
             } else {
