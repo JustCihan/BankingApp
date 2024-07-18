@@ -4,10 +4,7 @@ Medium'dan geliyorsanız, bu kod çok doğru yazılmış bir kod değildir. Sade
  olarak bir seçim işlemi yapılır ve bu seçim sonunda altında bulunan bloklardan birine girilir.
 
 Kodun bu aşamada (döngüleri kavramak bakımından) anlaşılabilir olması için hata yönetimi, nesne yönelimli programlama
-gibi konuları dikkate almadan hazırladım. Kodu biraz açıklamak gerekirse Sabit bir hesap numarası ve şifresine sahip.
-İf ile Kontrol edilip girş onaylanıyor veya reddediliyor onaylanır ise islem türüne hangi işlemi yapmak istiyor iseler
-o bilgi alınıyor ve Switch case yapısına giriyor burada içeride para yatırılıp
-
+gibi konuları dikkate almadan hazırladım.
 
 Programın İşleyişi:
 Giriş ve Değişken Tanımlamaları:
